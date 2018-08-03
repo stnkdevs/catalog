@@ -1,0 +1,6 @@
+03/07/2018 01:44
+MySQL database connection failed! (Mysql error code: 1045). Message: Access denied for user 'root'@'localhost' (using password: YES)
+--------------------
+03/07/2018 01:44
+MySQL database connection failed! (Mysql error code: 1045). Message: Access denied for user 'root'@'localhost' (using password: YES)
+--------------------

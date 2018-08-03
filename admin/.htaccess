@@ -1,0 +1,19 @@
+AuthType Basic  
+AuthName "Enter as admin"
+require valid-user 
+# User: user, Password: 1111
+AuthUserFile  C:\server\data\php7\catalog\admin\.htpasswd 
+
+
+<Files failed_mails.txt>
+order allow,deny
+deny from all
+</Files>
+<Files log.txt>
+order allow,deny
+deny from all
+</Files>
+<Files .ht*>
+order allow,deny
+deny from all
+</Files>

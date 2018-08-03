@@ -1,0 +1,55 @@
+body{
+background-color: rgb(210, 220, 255);
+}
+.book_filter{
+    float: left;
+    border: 1px solid red;
+    margin-left: 20px;
+    vertical-align: top;
+    position: relative;
+    width: 450px;
+    padding: 40px;
+    background-color: honeydew;
+}
+.results{
+    border: 1px solid;
+    position: relative;
+    float: left;
+    width: 650px;
+    vertical-align: top;
+    padding: 40px;
+    margin-left: 40px;
+    min-height: 600px;
+    background-color: rgb(247, 247, 250);
+}
+
+.book_filter select[name=sort_field]{
+    width: 250px;
+    height: 27x;
+    font-size: 17px;
+}
+.book_filter input[type=submit]{
+    width: 250px;
+    height: 50x;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.paginator{
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+    right: 40px;
+    padding: 15px;
+    min-height: 30px;
+}
+
+.paginator input[name=next]{
+    position: absolute;
+    right: 15px;
+}
+
+.paginator input[type=submit]{
+    background-color: lightcyan;
+}
