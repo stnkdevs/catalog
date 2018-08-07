@@ -13,14 +13,9 @@ class Connection {
     }
     private static function connect(){
         global $config;
-        $host=isset($config['mysql_host'])?$config['mysql_host']:'localhost';
-        $user=isset($config['mysql_user'])?$config['mysql_user']:'user';
-        $pwd=isset($config['mysql_pwd'])?$config['mysql_pwd']:'';
-        $db=isset($config['mysql_db'])?$config['mysql_db']:'catalog';
-        $port=isset($config['mysql_port'])?$config['mysql_port']:'3306';
-        if (isset($config['dsn']))
-            $dsn=$config['dsn'];
-        else $dsn="mysql:dbname=$db;host=$host;port=$port;charset=utf8";
+        $user=isset($config['user'])?$config['user']:'user';
+        $pwd=isset($config['pwd'])?$config['pwd']:'';
+        $dsn=isset($config['dsn'])?$config['dsn']:'';
         return new \PDO($dsn, $user, $pwd);
     }
 }

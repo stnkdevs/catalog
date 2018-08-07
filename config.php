@@ -1,13 +1,11 @@
 <?php
 
-$config['mysql_host']='localhost';
-$config['mysql_port']=3306;
-$config['mysql_user']='root';
-$config['mysql_pwd']='1111';
-$config['mysql_db']='catalog';
+$config['user']='root';
+$config['pwd']='1111';
+$config['dsn']='mysql:dbname=catalog;host=localhost;port=3306;charset=utf8';
 $config['timezone']='Europe/Kiev';
 $config['admin_email']='stankmess@gmail.com';
-$config['root_uri']='/';
+$config['root_uri']='/catalog/';
 
 
 

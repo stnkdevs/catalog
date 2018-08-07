@@ -4,3 +4,9 @@ MySQL database connection failed! (Mysql error code: 1045). Message: Access deni
 03/07/2018 01:44
 MySQL database connection failed! (Mysql error code: 1045). Message: Access denied for user 'root'@'localhost' (using password: YES)
 --------------------
+07/08/2018 11:33
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Этот хост неизвестен. 
+--------------------
+07/08/2018 11:34
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Этот хост неизвестен. 
+--------------------
